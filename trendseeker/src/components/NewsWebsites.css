@@ -1,0 +1,14 @@
+.news-website-page {
+    padding: 1rem;
+  }
+  
+  .news-website-list li {
+    margin-bottom: 1rem;
+  }
+  
+  .news-website-list a {
+    color: #007BFF;
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+  

@@ -1,0 +1,43 @@
+.homepage {
+    padding: 1rem;
+  }
+  
+  .date-inputs {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .date-inputs input {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .news-list li {
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .news-item h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .news-item p {
+    margin: 0.5rem 0;
+  }
+  
+  .news-item a {
+    color: #007BFF;
+    font-weight: bold;
+  }
+  
+  @media (max-width: 768px) {
+    .date-inputs {
+      flex-direction: column;
+    }
+  }
+  
