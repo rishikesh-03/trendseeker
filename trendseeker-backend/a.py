@@ -166,6 +166,7 @@ signal.signal(signal.SIGTERM, signal_handler)
 
 if __name__ == '__main__':
     while True:
-        fetch_and_store()
         
+        fetch_and_store()
+
         time.sleep(10)
